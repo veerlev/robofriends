@@ -8,7 +8,6 @@ import './App.css';
 import { setSearchField } from '../actions';
 
 const mapStateToProps = state => {
-  console.log("so this is the state: ", state);
   return {
 
     searchField: state.searchField
